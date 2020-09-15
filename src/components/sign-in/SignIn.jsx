@@ -43,12 +43,13 @@ import {signInWithGoogle} from '../../firebase/firebase';
             type="password"
             onChange={this.handleChange}
             label = 'password'
-            />
-
-          <CustomButton type='submit' > sign in </CustomButton>
-          <CustomButton onClick={signInWithGoogle}>
-            SignIn with google 
+          />
+          <div className="buttons">
+          <CustomButton type='submit' > SignIn </CustomButton>
+          <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
+              SignIn With Google 
           </CustomButton>
+          </div>
       </form>
       </div>
     )

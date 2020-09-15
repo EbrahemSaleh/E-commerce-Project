@@ -1,5 +1,9 @@
+
+*{
+  box-sizing: border-box;
+}
 body{
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Open Sans', sans-serif;
   padding : 20px 60px;
   background-color: rgb(97, 101, 101,.1);
 }

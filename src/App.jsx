@@ -32,11 +32,11 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Header/>
+        <Header currentUser={ this.state.currentUser}/>
         <Switch>
         <Route path = '/' component={HomePage} exact />
         <Route path = '/shop' component={ShopPage} />
-        <Route path = '/signin' component={SignInAndSignOut} />
+        <Route path = '/sign-in' component={SignInAndSignOut} />
         </Switch>
          </div>
     ) 
